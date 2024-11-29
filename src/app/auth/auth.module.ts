@@ -7,7 +7,11 @@ import { RegisterComponent } from './components/register/register.component';
 import { PerfilComponent } from './components/perfil/perfil.component';
 import {ReactiveFormsModule} from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { AuthService } from './services/auth.service';
 @NgModule({
+  providers:[
+AuthService
+  ],
   declarations: [
     LoginComponent,
     RegisterComponent,
