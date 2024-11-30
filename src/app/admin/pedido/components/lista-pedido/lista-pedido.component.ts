@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   standalone: false,
   
   templateUrl: './lista-pedido.component.html',
-  styleUrl: './lista-pedido.component.css'
+  styleUrl: './lista-pedido.component.scss'
 })
 export class ListaPedidoComponent {
 
